@@ -5,7 +5,7 @@ import Login from "../LoginForm/Login";
 
 const Header = () => {
     return (
-        <div className=" py-4 text-md font-bold shadow-md">
+        <div className=" py-2 text-md font-bold shadow-md sticky top-0">
             <div className="flex justify-between w-11/12 mx-auto items-center">
                 <Link to='/'>
                     <div className="flex items-center space-x-2">
