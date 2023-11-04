@@ -9,6 +9,7 @@ import {
 import Main from './Layout/Main';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
+import Clients from './Components/Clients/Clients';
 
 const router = createBrowserRouter([
   {
@@ -20,9 +21,12 @@ const router = createBrowserRouter([
     },
     {
       path: "/about",
-      element: <About></About>
-    }
-    ],
+      element: <About></About>,
+    },
+    {
+      path: "/clients",
+      element: <Clients></Clients>,
+    }],
   },
 ]);
 

@@ -14,9 +14,9 @@ const Header = () => {
                 <div className="text-center ">
                     <Link to="/" className="p-4 hover:bg-gray-300 hover:rounded-xl">Home</Link>
                     <Link to="/about" className="p-4 hover:bg-gray-300 hover:rounded-xl">About Us</Link>
-                    <Link to="/about" className="p-4 hover:bg-gray-300 hover:rounded-xl">Our Services</Link>
-                    <Link to="/about" className="p-4 hover:bg-gray-300 hover:rounded-xl">Our Clients</Link>
-                    <Link to="/about" className="p-4 hover:bg-gray-300 hover:rounded-xl">Contact Us</Link>
+                    <Link to="/services" className="p-4 hover:bg-gray-300 hover:rounded-xl">Our Services</Link>
+                    <Link to="/clients" className="p-4 hover:bg-gray-300 hover:rounded-xl">Our Clients</Link>
+                    <Link to="/contact" className="p-4 hover:bg-gray-300 hover:rounded-xl">Contact Us</Link>
                     <button className="ml-4 rounded-xl py-2 px-4 bg-green-950 text-white">Login</button>
                 </div>
             </div>
