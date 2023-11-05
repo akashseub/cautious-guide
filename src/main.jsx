@@ -11,6 +11,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Clients from './Components/Clients/Clients';
 import Dashboard from './Components/Dashboard/Dashboard';
+import Contact from './Components/Contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
     {
       path: '/services',
       element: <Dashboard></Dashboard>
+    },
+    {
+      path: '/contact',
+      element: <Contact></Contact>
     }],
   },
 ]);

@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "projectName": "Project A",
+      "address": "123 Main St, City, Country",
+      "totalArea": "2000 sq. ft.",
+      "totalPrice": "$500,000",
+      "contactNumber": "+1 123-456-7890",
+      "status": "In Progress"
+    },
+    {
+      "id": 2,
+      "projectName": "Project B",
+      "address": "456 Elm St, Town, Country",
+      "totalArea": "1500 sq. ft.",
+      "totalPrice": "$400,000",
+      "contactNumber": "+1 234-567-8901",
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "projectName": "Project C",
+      "address": "789 Oak St, Village, Country",
+      "totalArea": "1800 sq. ft.",
+      "totalPrice": "$450,000",
+      "contactNumber": "+1 345-678-9012",
+      "status": "On Hold"
+    },
+    {
+      "id": 4,
+      "projectName": "Project D",
+      "address": "101 Pine St, Hamlet, Country",
+      "totalArea": "2200 sq. ft.",
+      "totalPrice": "$550,000",
+      "contactNumber": "+1 456-789-0123",
+      "status": "In Progress"
+    },
+    {
+      "id": 5,
+      "projectName": "Project E",
+      "address": "202 Maple St, City, Country",
+      "totalArea": "1700 sq. ft.",
+      "totalPrice": "$420,000",
+      "contactNumber": "+1 567-890-1234",
+      "status": "Completed"
+    },
+    {
+      "id": 6,
+      "projectName": "Project F",
+      "address": "303 Birch St, Town, Country",
+      "totalArea": "1900 sq. ft.",
+      "totalPrice": "$480,000",
+      "contactNumber": "+1 678-901-2345",
+      "status": "On Hold"
+    },
+    {
+      "id": 7,
+      "projectName": "Project G",
+      "address": "404 Cedar St, Village, Country",
+      "totalArea": "2100 sq. ft.",
+      "totalPrice": "$520,000",
+      "contactNumber": "+1 789-012-3456",
+      "status": "In Progress"
+    },
+    {
+      "id": 8,
+      "projectName": "Project H",
+      "address": "505 Walnut St, Hamlet, Country",
+      "totalArea": "2300 sq. ft.",
+      "totalPrice": "$570,000",
+      "contactNumber": "+1 890-123-4567",
+      "status": "Completed"
+    },
+    {
+      "id": 9,
+      "projectName": "Project I",
+      "address": "606 Ash St, City, Country",
+      "totalArea": "1600 sq. ft.",
+      "totalPrice": "$410,000",
+      "contactNumber": "+1 901-234-5678",
+      "status": "On Hold"
+    },
+    {
+      "id": 10,
+      "projectName": "Project J",
+      "address": "707 Spruce St, Town, Country",
+      "totalArea": "2000 sq. ft.",
+      "totalPrice": "$500,000",
+      "contactNumber": "+1 012-345-6789",
+      "status": "In Progress"
+    }
+  ]
+  
