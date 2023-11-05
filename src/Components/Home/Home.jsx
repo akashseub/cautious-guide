@@ -30,7 +30,7 @@ const Home = () => {
                             <li>To conduct Pre-shipment & Post-shipment inspection work with strict conformity to international standard.</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="">
                         <img className="w-4/5" src={'https://img.freepik.com/free-vector/staff-management-perspective-definition-target-orientation-teamwork-organization-business-coach-company-executive-personnel-cartoon-characters_335657-2967.jpg?w=740&t=st=1699168368~exp=1699168968~hmac=9279537984fdefd0421229c9c3512b92b471f22b2059ebcbd4c977822d128673'} alt="" />
                     </div>
                 </div>

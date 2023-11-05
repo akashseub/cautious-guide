@@ -14,11 +14,11 @@ const Header = () => {
                     </div>
                 </Link>
                 <div className="text-center md:flex items-center">
-                    <Link to="/" className="p-4 hover:bg-gray-300 hover:rounded-xl">Home</Link>
-                    <Link to="/about" className="p-4 hover:bg-gray-300 hover:rounded-xl">About Us</Link>
-                    <Link to="/services" className="p-4 hover:bg-gray-300 hover:rounded-xl">Our Services</Link>
-                    <Link to="/clients" className="p-4 hover:bg-gray-300 hover:rounded-xl">Our Clients</Link>
-                    <Link to="/contact" className="p-4 hover:bg-gray-300 hover:rounded-xl">Contact Us</Link>
+                    <Link to="/" className="p-4 hover:bg-gray-300 hover:rounded-xl hover:text-[#0C356A]">Home</Link>
+                    <Link to="/about" className="p-4 hover:bg-gray-300 hover:rounded-xl hover:text-[#0C356A]">About Us</Link>
+                    <Link to="/services" className="p-4 hover:bg-gray-300 hover:rounded-xl hover:text-[#0C356A]">Our Services</Link>
+                    <Link to="/clients" className="p-4 hover:bg-gray-300 hover:rounded-xl hover:text-[#0C356A]">Our Clients</Link>
+                    <Link to="/contact" className="p-4 hover:bg-gray-300 hover:rounded-xl hover:text-[#0C356A]">Contact Us</Link>
                     <div className="pl-4">
                         <button className="btn font-bold" onClick={() => document.getElementById('my_modal_2').showModal()}>Login</button>
                         <dialog id="my_modal_2" className="modal">
