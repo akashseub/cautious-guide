@@ -18,6 +18,7 @@ const Projects = () => {
     return (
         <div className="">
             <div className="overflow-x-auto mt-10">
+                <button className="btn float-right">Add file</button>
                 <table className="table table-xs">
                     <thead>
                         <tr>
@@ -37,16 +38,6 @@ const Projects = () => {
                                 project={project}></Project>)
                         }
                     </tbody>
-                    <tfoot>
-                        <tr>
-                            <th>Sl#</th>
-                            <th>Project Name</th>
-                            <th>Project Address</th>
-                            <th>Total Area</th>
-                            <th>Total Price</th>
-                            <th>Contact Number</th>
-                        </tr>
-                    </tfoot>
                 </table>
             </div>
         </div>

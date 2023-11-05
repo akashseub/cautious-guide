@@ -30,8 +30,8 @@ const Dashboard = () => {
 
 
 
-            <ChatBox></ChatBox>
             <Projects></Projects>
+            <ChatBox></ChatBox>
         </div>
         
     );
