@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Login from "../LoginForm/Login";
+// import Login from "../LoginForm/Login";
 // import Login from "../LoginForm/Login";
 
 
@@ -19,17 +19,7 @@ const Header = () => {
                     <Link to="/services" className="p-4 hover:bg-gray-300 hover:rounded-xl hover:text-[#0C356A]">Our Services</Link>
                     <Link to="/clients" className="p-4 hover:bg-gray-300 hover:rounded-xl hover:text-[#0C356A]">Our Clients</Link>
                     <Link to="/contact" className="p-4 hover:bg-gray-300 hover:rounded-xl hover:text-[#0C356A]">Contact Us</Link>
-                    <div className="pl-4">
-                        <button className="btn font-bold" onClick={() => document.getElementById('my_modal_2').showModal()}>Login</button>
-                        <dialog id="my_modal_2" className="modal">
-                            <div className="modal-box">
-                                <Login></Login>
-                            </div>
-                            <form method="dialog" className="modal-backdrop">
-                                <button>close</button>
-                            </form>
-                        </dialog>
-                    </div>
+                    <Link to='/login'><button>Login</button></Link>
                 </div>
             </div>
         </div>
